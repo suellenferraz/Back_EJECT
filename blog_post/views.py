@@ -3,7 +3,7 @@ from django.shortcuts import render
 from blog_post.models import Blog
 
 # Create your views here.
-def blog(request):
+def blog_post(request):
     blog = Blog.objects.all() 
     print (blog)
     context = {
